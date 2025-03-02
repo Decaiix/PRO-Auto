@@ -1,0 +1,45 @@
+@-webkit-keyframes scroll {
+  to {
+    -webkit-transform: translate(calc(-50% - 60px));
+            transform: translate(calc(-50% - 60px));
+  }
+}
+@keyframes scroll {
+  to {
+    -webkit-transform: translate(calc(-50% - 60px));
+            transform: translate(calc(-50% - 60px));
+  }
+}
+@-webkit-keyframes clickhere {
+  0% {
+    display: block;
+  }
+  25% {
+    scale: 0.9;
+    display: block;
+  }
+  80% {
+    scale: 1;
+  }
+  100% {
+    display: block;
+  }
+}
+@keyframes clickhere {
+  0% {
+    display: block;
+  }
+  25% {
+    scale: 0.9;
+    display: block;
+  }
+  80% {
+    scale: 1;
+  }
+  100% {
+    display: block;
+  }
+}
+.hiddenElement {
+  display: none;
+}/*# sourceMappingURL=keyframes.css.map */

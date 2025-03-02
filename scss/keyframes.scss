@@ -1,0 +1,23 @@
+@keyframes scroll{
+    to{
+        transform: translate(calc(-50% - 60px));
+    }
+}
+@keyframes clickhere{
+    0%{
+        display:block;
+    }
+    25%{
+        scale: .9;
+        display:block;
+    }
+    80%{
+        scale: 1;
+    }
+    100%{
+        display:block;
+    }
+}
+.hiddenElement{
+    display: none;
+}
